@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 #define LED 5
-const char* ssid = "Hilman Wifi";
-const char* password = "12345abcde";
+const char* ssid = "freegan2";
+const char* password = "0000x0000";
 const char* mqtt_server = "192.168.1.4";
 
 WiFiClient espClient;
