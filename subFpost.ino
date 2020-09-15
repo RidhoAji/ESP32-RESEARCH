@@ -3,7 +3,8 @@
 #define LED 5
 const char* ssid = "freegan2";
 const char* password = "0000x0000";
-const char* mqtt_server = "192.168.1.4";
+const char* mqtt_server = "test.mosquitto.org";
+//const char* mqtt_server = "192.168.1.10"; Server LOKAL
 
 WiFiClient espClient;
 PubSubClient client(espClient);
